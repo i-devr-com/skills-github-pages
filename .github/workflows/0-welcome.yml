@@ -71,7 +71,7 @@ jobs:
 
           echo "Create config and homepage files"
           touch _config.yml
-          printf "%s\n%s\n%s\n\n" "---" "title: Welcome to my blog" "---" > index.md
+          printf "%s\n%s\n%s\n\n" "---" "title: Welcome to my blogs" "---" > index.md
 
           echo "Make a commit"
           git config user.name github-actions[bot]
